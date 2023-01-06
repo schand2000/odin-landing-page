@@ -11,12 +11,17 @@ body {
     background: #cf2e23;
     display: flex;
     flex-direction: row;
+    text-align: center;
+}
+.foot-text{
+    text-align: center;
 }
 .foot p{
     text-align: center;
     color: white;
     font-size: 25px;
-    font-style: italic;
+    margin-left: 40%;
+
 }
 .head {
     top: 0;
@@ -77,6 +82,55 @@ body {
     display:flex;
     height: 400px;
     background-color: aliceblue;
+
+}
+.warningpic {
+    flex: 1;
+    height: 400px;
+    width:50%;
+    background-color: #cf2e23;
+    display: flex;
+}
+.imgholder{
+    height:auto;
+    margin: 40px 40px 40px 40px;
+    flex: 1;
+}
+.imgholder img{
+    object-fit: fill;
+    height:100%;
+    width:100%;
+}
+.warningtext {
+    flex: 1;
+    height: 400px;
+    width: 50%;
+    background-color: #cf2e23;
+    display:flex;
+    flex-direction: column;
+}
+.cancer {
+    flex: 1;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: solid white;
+    padding-top: 40px;
+
+}
+.cancer h1{
+    color: white;
+}
+.quitnow {
+    flex: 1;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.quitnow a {
+    padding-top: 10px;
+    font-size: 60px;
+    color: white;
 }
 .link1{
     padding-left: 120px;
